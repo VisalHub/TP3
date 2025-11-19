@@ -1,6 +1,10 @@
+import sys, os
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+
 import pandas as pd
 import unittest 
 from clean_data import clean_data
+
 
 class TestCleanData(unittest.TestCase):
 
